@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////
 /// This file serves to test the correct formatting of the .clang-format rules
 /// It should provide incorrect formatting (never commit this file when it is formatted)
-/// \file .main.cpp
+/// \file main.cpp
 /// \author Matthieu Beauchamp-Boulay
 /// \date 17-01-2023
 /// Created on 17-01-2023
