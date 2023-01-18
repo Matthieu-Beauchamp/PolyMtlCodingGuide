@@ -53,7 +53,7 @@ BraceWrapping:                  # item 68, 69 (partial), 70, 71, 72, 74, 75, 76,
   SplitEmptyNamespace: true
 BreakBeforeBinaryOperators: All         # item 39 of coding guide
 BreakBeforeConceptDeclarations: true
-BreakBeforeBraces: Attach
+BreakBeforeBraces: Custom
 BreakBeforeInheritanceComma: false
 BreakInheritanceList: BeforeColon
 BreakBeforeTernaryOperators: true

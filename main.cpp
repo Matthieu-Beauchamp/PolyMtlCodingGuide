@@ -41,6 +41,8 @@ void nested(){
 // braces, see (#68 to #77), we chose to always put braces on newlines
 ////////////////////////////////////////////////////////////
 
+// TODO: try-catch
+
 auto lambda = []() -> int {return 0;};
 auto empty = [](){};
 
@@ -75,9 +77,9 @@ int main(int argc, char **argv){
 }
     int a=1;
     unsigned int b=2;
-    float c=a+b;
+    float ccc=a+b;
 
-    for(int i=0;i<10;++i){c+=i%2==0?thisIsAReallyLongFunctionWhoseNameSpansForAlmost80ColumnsForcingALineBreak(a)*3+thisIsAReallyLongFunctionWhoseNameSpansForAlmost80ColumnsForcingALineBreak(b)*2:2*thisIsAPrettyLongFunctionName(a)-3*thisIsAPrettyLongFunctionName(b)-13/2%a+c;}
+    for(int i=0;i<10;++i){ccc+=i%2==0?thisIsAReallyLongFunctionWhoseNameSpansForAlmost80ColumnsForcingALineBreak(a)*3+thisIsAReallyLongFunctionWhoseNameSpansForAlmost80ColumnsForcingALineBreak(b)*2:2*thisIsAPrettyLongFunctionName(a)-3*thisIsAPrettyLongFunctionName(b)-13/2%a+ccc;}
     return 0;
 }
 
