@@ -1,21 +1,24 @@
 # Covered features
+These are the styling rules that are automatically handled by the .clang-format
+
 - 50: pointer and reference alignement
 - 60: short ifs should not be on a single line
 - 67: tab width = 4
 - 68 to 77: brace placements
 - 82, 83: try to align most things
 
-38 45, 55, 59 are missing
-# Limitations (1 to 42)
-- 1: Rights to break the guide
+# Limitations
+These cannot be handled by clang-format, you must apply them yourself.
+
+- 1: Rights to break the guide in order to improve readability
   
 ## General naming conventions
-- 2: All types must have CamelCase
+- 2: All types must use CamelCase
 - 3: variables use smallCase
 - 4: Macros use SCREAMING_CASE
 - 5: functions start with a verb and use smallCase
 - 6: namespaces should be a single lowercase word
-- 7: generic types should be single letter
+- 7: generic types should be single capital letter
 - 8: the key word 'typename' should be used in templates (not 'class')
 - 9: acronyms should not be put in Caps in variables (exportHtmlSource instead of exportHTMLSource)
 - 10: global variables should be accessed with ::var
@@ -49,7 +52,7 @@
 - 34: extensions should be .cpp and .hpp (.h accepted)
 - 35: classes should be declared in header and defined in source file (this is irrelevant for templates)
 - 36: see 35
-- 37: code must never use more than 80 columns
+- 37: code must never use more than 80 columns (TODO: clang-format should split, may have to change penalty values...)
 - 38: N/A (Missing from specification)
 - 39: lines should be split in a readable way
 
@@ -97,10 +100,13 @@
 - 81: logical blocks should be separated by newlines
 - 82: method definitions should be separated by 2 empty lines
 
+--------------------------------------------------------------------------------
 
-
-# Specification
+# Official coding guide
 https://moodle.polymtl.ca/mod/resource/view.php?id=419327
+
+38, 45, 55 and 59 are missing
+
 
 # Documentation for clang-format
 https://clang.llvm.org/docs/ClangFormatStyleOptions.html
