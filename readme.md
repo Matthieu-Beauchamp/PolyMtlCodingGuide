@@ -5,6 +5,7 @@ These are the styling rules that are automatically handled by the .clang-format
 - 60: short ifs should not be on a single line
 - 67: tab width = 4
 - 68 to 77: brace placements
+  - Issue: empty for loops will not be on a single line
 - 82, 83: try to align most things
 
 # Limitations

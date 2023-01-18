@@ -46,7 +46,7 @@ void nested(){
 auto lambda = []() -> int {return 0;};
 auto empty = [](){};
 
-struct BracesStruct{class Braces{public: void braces();}; enum B{a, b, c};};
+class BracesStruct{public:struct Braces{private: void braces();}; enum B{a, b, c};};
 
 void BracesStruct::Braces::braces(){
     if (true) {
