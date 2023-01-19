@@ -17,10 +17,10 @@ void ptrAndRef(){int *ptr; int &ref{*ptr}; int *ptrr{&*ptr};}
 // Colons should be wrapped in spaces, but not ::
 ////////////////////////////////////////////////////////////
 class A{};
-class B : public A{struct C{};};
+class B : public A{public:struct C{};};
 
 
-void colons(){B::A{};}
+void colons(){B::C{}; B ::C{};}
 
 
 ////////////////////////////////////////////////////////////
