@@ -25,10 +25,10 @@ AllowShortFunctionsOnASingleLine: Empty         # TODO: Unspecified, I like them
 AllowShortLambdasOnASingleLine: All
 AllowShortIfStatementsOnASingleLine: Never      # item 60 of coding guide
 AllowShortLoopsOnASingleLine: false
-AlwaysBreakAfterDefinitionReturnType: None
-AlwaysBreakAfterReturnType: None
+AlwaysBreakAfterDefinitionReturnType: All
+AlwaysBreakAfterReturnType: All
 AlwaysBreakBeforeMultilineStrings: false
-AlwaysBreakTemplateDeclarations: MultiLine
+AlwaysBreakTemplateDeclarations: Yes
 AttributeMacros:
   - __capability
 BinPackArguments: false
@@ -132,7 +132,7 @@ PenaltyBreakOpenParenthesis: 0
 PenaltyBreakString: 1000
 PenaltyBreakTemplateDeclaration: 10
 PenaltyExcessCharacter: 1000000
-PenaltyReturnTypeOnItsOwnLine: 60
+PenaltyReturnTypeOnItsOwnLine: 0
 PenaltyIndentedWhitespace: 0
 PointerAlignment: Left              # item 50 of coding guide
 PPIndentWidth:   -1

@@ -7,6 +7,7 @@
 /// Created on 17-01-2023
 ////////////////////////////////////////////////////////////
 
+#include <type_traits>
 
 ////////////////////////////////////////////////////////////
 // Pointer and references aligned on type (#50)
@@ -91,4 +92,12 @@ int main(int argc, char **argv){
     for(int i=0;i<10;++i){ccc+=i%2==0?thisIsAReallyLongFunctionWhoseNameSpansForAlmost80ColumnsForcingALineBreak(a)*3+thisIsAReallyLongFunctionWhoseNameSpansForAlmost80ColumnsForcingALineBreak(b)*2:2*thisIsAPrettyLongFunctionName(a)-3*thisIsAPrettyLongFunctionName(b)-13/2%a+ccc;}
     return 0;
 }
+
+////////////////////////////////////////////////////////////
+// Templates
+////////////////////////////////////////////////////////////
+
+template<class T, int i> decltype(std::declval<T>() + i) func(T t) {return t +i;}
+
+template<class T> class Template{template<class U> struct Nested{};};
 
