@@ -25,8 +25,8 @@ AllowShortFunctionsOnASingleLine: Empty         # TODO: Unspecified, I like them
 AllowShortLambdasOnASingleLine: All
 AllowShortIfStatementsOnASingleLine: Never      # item 60 of coding guide
 AllowShortLoopsOnASingleLine: false
-AlwaysBreakAfterDefinitionReturnType: All
-AlwaysBreakAfterReturnType: All
+AlwaysBreakAfterDefinitionReturnType: None
+AlwaysBreakAfterReturnType: None
 AlwaysBreakBeforeMultilineStrings: false
 AlwaysBreakTemplateDeclarations: Yes
 AttributeMacros:
