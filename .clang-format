@@ -139,7 +139,7 @@ PPIndentWidth:   -1
 ReferenceAlignment: Pointer         # item 50 of coding guide
 ReflowComments:  true
 RemoveBracesLLVM: false
-SeparateDefinitionBlocks: Always
+SeparateDefinitionBlocks: Leave
 ShortNamespaceLines: 1
 SortIncludes:    Never
 SortJavaStaticImport: Before
