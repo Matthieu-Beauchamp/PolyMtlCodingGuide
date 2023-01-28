@@ -124,22 +124,22 @@ ObjCBlockIndentWidth: 2
 ObjCBreakBeforeNestedBlockParam: true
 ObjCSpaceAfterProperty: false
 ObjCSpaceBeforeProtocolList: true
-PenaltyBreakAssignment: 2
-PenaltyBreakBeforeFirstCallParameter: 19
+PenaltyBreakAssignment: 1000
+PenaltyBreakBeforeFirstCallParameter: 2000
 PenaltyBreakComment: 300
 PenaltyBreakFirstLessLess: 120
 PenaltyBreakOpenParenthesis: 0
 PenaltyBreakString: 1000
 PenaltyBreakTemplateDeclaration: 10
 PenaltyExcessCharacter: 1000000
-PenaltyReturnTypeOnItsOwnLine: 0
+PenaltyReturnTypeOnItsOwnLine: 3000
 PenaltyIndentedWhitespace: 0
 PointerAlignment: Left              # item 50 of coding guide
 PPIndentWidth:   -1
 ReferenceAlignment: Pointer         # item 50 of coding guide
 ReflowComments:  true
 RemoveBracesLLVM: false
-SeparateDefinitionBlocks: Leave
+SeparateDefinitionBlocks: Always
 ShortNamespaceLines: 1
 SortIncludes:    Never
 SortJavaStaticImport: Before
