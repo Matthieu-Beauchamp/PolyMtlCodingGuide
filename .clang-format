@@ -129,7 +129,7 @@ PenaltyBreakBeforeFirstCallParameter: 2000
 PenaltyBreakComment: 300
 PenaltyBreakFirstLessLess: 120
 PenaltyBreakOpenParenthesis: 0
-PenaltyBreakString: 1000
+PenaltyBreakString: 500
 PenaltyBreakTemplateDeclaration: 10
 PenaltyExcessCharacter: 1000000
 PenaltyReturnTypeOnItsOwnLine: 3000
